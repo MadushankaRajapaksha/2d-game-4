@@ -1,0 +1,807 @@
+/* Smartphones ----- width ------------- */
+
+@media (min-width: 850px) {
+
+    .positionAbsoluteMove {
+        display: none;
+    }
+
+    .positonAbsoluteAttack {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    .tutorial-description {
+        flex-direction: column;
+    }
+
+    .start-button {
+        width: 550px;
+        margin-bottom: 5%;
+    }
+
+    .start-button img {
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    canvas {
+        width: 100%;
+    }
+
+    #title {
+        position: absolute;
+        top: 0;
+    }
+
+    .ingameTutorial {
+        display: none !important;
+    }
+
+    .menu-choise {
+        flex-direction: column;
+    }
+
+    .sharkiePreview {
+        margin-top: 20%;
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 40px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: 10px;
+        left: 55px;
+    }
+
+    #btnMobileRight {
+        bottom: 10px;
+        left: 100px;
+    }
+
+    #btnMobileUp {
+        bottom: 55px;
+        left: 55px;
+    }
+
+    #btnMobileBubble {
+        right: 100px;
+        bottom: 25px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: 80px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: 5px;
+        height: 70px;
+    }
+
+    .win-buttons {
+        width: 700px;
+    }
+
+    .win-buttons img {
+        height: 80px;
+    }
+
+    .lose-screen {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .win-buttons {
+        width: 600px;
+    }
+
+    .win-buttons img {
+        height: 65px;
+    }
+
+    .lose-screen {
+        width: 500px;
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 70px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: -180px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: -180px;
+        left: 90px;
+    }
+
+    #btnMobileRight {
+        bottom: -180px;
+        left: 170px;
+    }
+
+    #btnMobileUp {
+        bottom: -100px;
+        left: 90px;
+    }
+
+    #btnMobileBubble {
+        right: 140px;
+        bottom: -180px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: -100px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: -230px;
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #homebutton {
+        top: 10px;
+        right: 215px;
+    }
+
+    #homebutton img {
+        height: 30px;
+    }
+
+    #fullscreenbutton {
+        top: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 30px;
+    }
+
+    .mute {
+        width: 35px;
+        height: 35px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .win-buttons {
+        width: auto;
+        height: 100px;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .win-buttons img {
+        height: 65px;
+        margin-top: 5%;
+    }
+
+    .lose-screen {
+        width: 400px;
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 70px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: -180px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: -180px;
+        left: 90px;
+    }
+
+    #btnMobileRight {
+        bottom: -180px;
+        left: 170px;
+    }
+
+    #btnMobileUp {
+        bottom: -100px;
+        left: 90px;
+    }
+
+    #btnMobileBubble {
+        right: 140px;
+        bottom: -180px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: -100px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: -230px;
+        height: 110px;
+    }
+
+    .description_1-3 {
+        flex-direction: column;
+        width: unset;
+        height: 200px;
+        text-align: center;
+    }
+
+    .description_4 {
+        flex-direction: column;
+        width: unset;
+        height: 200px;
+        text-align: center;
+    }
+
+    .infotext {
+        flex-direction: column;
+        width: unset;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .start-button {
+        flex-direction: column;
+        width: 200px;
+        align-items: center;
+    }
+
+    .start-button img {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .lose-screen {
+        width: 350px;
+    }
+
+    .win-buttons img {
+        height: 50px;
+        margin-top: 5%;
+    }
+
+    #homebutton {
+        top: 315px;
+        left: 10px;
+    }
+
+    #homebutton img {
+        height: 50px;
+    }
+
+    #fullscreenbutton {
+        top: 380px;
+        left: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 40px;
+    }
+    
+    .mute {
+        width: 60px;
+        height: 60px;
+        top: 535px;
+        left: 300px;
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 70px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: -320px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: -320px;
+        left: 90px;
+    }
+
+    #btnMobileRight {
+        bottom: -320px;
+        left: 170px;
+    }
+
+    #btnMobileUp {
+        bottom: -240px;
+        left: 90px;
+    }
+
+    #btnMobileBubble {
+        right: 140px;
+        bottom: -180px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: -100px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: -230px;
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .lose-screen {
+        width: 300px;
+    }
+
+    .menu-choise img {
+        height: 80px;
+
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 70px;
+        width: auto;
+    }
+
+    #homebutton {
+        top: 275px;
+        left: 10px;
+    }
+
+    #homebutton img {
+        height: 40px;
+    }
+
+    #fullscreenbutton {
+        top: 330px;
+        left: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 60px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: -370px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: -370px;
+        left: 80px;
+    }
+
+    #btnMobileRight {
+        bottom: -370px;
+        left: 150px;
+    }
+
+    #btnMobileUp {
+        bottom: -300px;
+        left: 80px;
+    }
+
+    #btnMobileBubble {
+        right: 140px;
+        bottom: -220px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: -150px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: -280px;
+        height: 110px;
+    }
+
+    .mute {
+        width: 40px;
+        height: 40px;
+        top: 545px;
+        left: 290px;
+    }
+
+    #homebutton {
+        top: 275px;
+        left: 10px;
+    }
+
+    #homebutton img {
+        height: 40px;
+    }
+
+    #fullscreenbutton {
+        top: 330px;
+        left: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 350px) {
+    .lose-screen {
+        width: 250px;
+    }
+
+    #homebutton {
+        top: 220px;
+        left: 10px;
+    }
+
+    #homebutton img {
+        height: 40px;
+    }
+
+    #fullscreenbutton {
+        top: 280px;
+        left: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 35px;
+    }
+
+    .mute {
+        width: 40px;
+        height: 40px;
+        top: 335px;
+        left: 25px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .menu-choise img {
+        height: 70px;
+
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 45px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: -370px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: -370px;
+        left: 70px;
+    }
+
+    #btnMobileRight {
+        bottom: -370px;
+        left: 130px;
+    }
+
+    #btnMobileUp {
+        bottom: -300px;
+        left: 70px;
+    }
+
+    #btnMobileBubble {
+        right: 140px;
+        bottom: -220px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: -150px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: -280px;
+        height: 110px;
+    }
+
+    .mute {
+        width: 40px;
+        height: 40px;
+        top: 335px;
+        left: 25px;
+    }
+
+    #homebutton {
+        top: 190px;
+        left: 10px;
+    }
+
+    #homebutton img {
+        height: 40px;
+    }
+
+    #fullscreenbutton {
+        top: 240px;
+        left: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 35px;
+    }
+    
+   
+}
+
+/* Smartphones ----- height ------------ */
+
+
+@media only screen and (max-height: 800px) {
+
+    .start-button {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-height: 680px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #title {
+        position: absolute;
+        top: 0;
+    }
+
+    .sharkiePreview {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+
+    .menu-choise img {
+        height: 70px;
+    }
+}
+
+
+@media only screen and (max-height: 575px) {
+
+    canvas {
+        height: 100vh;
+    }
+
+    #title {
+        position: absolute;
+        top: 0;
+    }
+
+    .ingameTutorial {
+        display: none !important;
+    }
+
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 40px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: 10px;
+        left: 55px;
+    }
+
+    #btnMobileRight {
+        bottom: 10px;
+        left: 100px;
+    }
+
+    #btnMobileUp {
+        bottom: 55px;
+        left: 55px;
+    }
+
+    #btnMobileBubble {
+        right: 100px;
+        bottom: 25px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 65px;
+        bottom: 80px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: 5px;
+        height: 70px;
+    }
+
+    .menu-choise {
+        margin-top: -5%;
+    }
+}
+
+
+@media only screen and (max-height: 500px) {
+
+    .sharkiePreview img {
+        height: 150px;
+    }
+
+    .menu-choise img {
+        height: 60px;
+    }
+}
+
+
+@media only screen and (max-height: 400px) {
+
+    .menu-choise img {
+        height: 50px;
+        margin-top: 0%;
+    }
+
+    .sharkiePreview img {
+        height: 150px;
+    }
+
+    #homebutton {
+        top: 10px;
+        right: 215px;
+    }
+
+    #homebutton img {
+        height: 30px;
+    }
+
+    #fullscreenbutton {
+        top: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 30px;
+    }
+
+    .mute {
+        width: 35px;
+        height: 35px;
+        top: 10px;
+    }
+
+}
+
+@media only screen and (max-height: 300px) {
+
+    #homebutton {
+        right: 165px;
+        top: 10px;
+    }
+
+    #homebutton img {
+        height: 25px;
+    }
+
+    #fullscreenbutton {
+        right: 50px;
+        top: 10px;
+    }
+
+    #fullscreenbutton img {
+        height: 25px;
+    }
+
+    .mute {
+        width: 25px;
+        height: 25px;
+        top: 10px;
+    }
+
+    .btnMobile {
+        position: absolute;
+        opacity: 0.9;
+        height: 30px;
+        width: auto;
+    }
+
+    #btnMobileLeft {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    #btnMobileDown {
+        bottom: 10px;
+        left: 45px;
+    }
+
+    #btnMobileRight {
+        bottom: 10px;
+        left: 80px;
+    }
+
+    #btnMobileUp {
+        bottom: 45px;
+        left: 45px;
+    }
+
+    #btnMobileBubble {
+        right: 80px;
+        bottom: 20px;
+    }
+
+    #btnMobilePoisonBubble {
+        right: 55px;
+        bottom: 65px;
+    }
+
+    #btnMobileSlap {
+        right: 15px;
+        bottom: 5px;
+        height: 55px;
+    }
+
+    .win-screen {
+        width: 60vw;
+        height: auto;
+    }
+
+    .win-buttons img {
+        height: 50px;
+        margin-top: 0;
+    }
+
+}

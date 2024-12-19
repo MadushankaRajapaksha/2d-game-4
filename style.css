@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'LuckiestGuy-Regular';
+    src: url('./fonts/LuckiestGuy-Regular.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-image: url('./img/underwater2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'LuckiestGuy-Regular', 'sharkparty', 'Arial', 'Helvetica', 'sans-serif';
+    color: antiquewhite;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+h3 {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.d-none {
+    display: none;
+}
+
+.gamingwindow {
+    position: relative;
+}
+
+.startscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+
+}
+
+.startscreen img {
+    height: 200px;
+}
+
+.startscreen img:hover {
+    transform: scale(1.03);
+    transition: all 50ms ease-in-out;
+}
+
+.sharkiePreview {
+    margin-bottom: 25px;
+}
+
+
+.ingameTutorial {    
+    margin-top: 15px;
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingameTutorial img {
+    width: auto;
+    height: 50px;
+}
+
+.fast-tutorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fast-tutorial img {
+    margin-bottom: 15px;
+}
+
+.menu-choise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-choise img {
+    cursor: pointer;
+    height: 100px;
+    margin: 5px;
+    width: auto;
+}
+
+.start-button {
+    width: 640px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+.start-button img {
+    height: 80px;
+    cursor: pointer;
+}
+
+.start-button img:hover {
+    transform: scale(1.03);
+    transition: all 50ms ease-in-out;
+}
+
+.tutorial {
+    margin-top: 90px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tutorial-description {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.tutorial-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+
+.tutorial-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+
+}
+
+.description_1-3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    
+}
+
+.description_1-3 img {
+    width: auto;
+    height: 70px;
+}
+
+.description_4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+}
+
+.spacebar {
+    width: 200px;
+    height: auto;
+}
+
+.bubblefish-img {
+    width: auto;
+    height: 70px;
+}
+
+.infotext {
+    font-size: 18px;
+    color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 125%;
+}
+
+.infotext img {
+    width: auto;
+    height: 70px;
+    margin-left: 2%;
+}
+
+canvas {
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 0 10px 10px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+.canvas_relative {
+    position: relative;
+}
+
+.mute {
+    cursor: pointer;
+    z-index: 50;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.mute:hover {
+    transform: scale(1.1);
+    transition: all 50ms ease-in-out;
+}
+
+
+#win {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.win-screen {
+
+    width: 70vw;
+    height: auto;
+}
+
+.win-buttons {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.win-buttons img {
+    width: auto;
+    height: 100px;
+    cursor: pointer;
+}
+
+.win-buttons img:hover {
+    transform: scale(1.03);
+    transition: all 50ms ease-in-out;
+}
+
+#lose {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.lose-screen {
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* Fullscreen-Mode ################## */
+
+#homebutton {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 250px;  
+}
+
+#homebutton img {
+    cursor: pointer;
+    height: 35px;
+    width: auto;
+}
+
+#homebutton img:hover {
+    transform: scale(1.05);
+    transition: all 50ms ease-in-out;
+}
+
+#fullscreenbutton {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+}
+
+#fullscreenbutton img {
+    cursor: pointer;
+    height: 35px;
+    width: auto;
+}
+
+#fullscreenbutton img:hover {
+    transform: scale(1.05);
+    transition: all 50ms ease-in-out;
+}
+
+#closeFullscreen {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+#closeFullscreen img {
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+}
+
+#closeFullscreen:hover {
+    transform: scale(1.1);
+    transition: all 50ms ease-in-out;
+}
+
+.canvasFullScreen {
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+
+.winScreenContainerFullScreen {
+    background-image: url('./img/underwater2.jpg');
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.winScreenContainerFullScreen h2 {
+    padding-top: 180px;
+}
+
+
+.imgTrophyContainerFullScreen img {
+    width: 230px;
+    padding-bottom: 155px;
+}
+
+
+.gameOverScreenFullScreen {
+    background-image: url('./img/underwater2.jpg');
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* ########################## */
+
